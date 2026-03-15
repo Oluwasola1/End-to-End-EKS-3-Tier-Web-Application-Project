@@ -6,8 +6,8 @@ metadata:
 spec:
   secretName: frontend-tls-secret
   dnsNames:
-    - samone.store
-    - api.samone.store
+    - your-domain
+    - api.your-domain
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
